@@ -8,7 +8,7 @@ import
    faEnvelope
 }
  from '@fortawesome/free-solid-svg-icons'
- import { faGithub,  faLinkedin,faTwitter,faMailchimp ,faInstagram,faWhatsapp} from '@fortawesome/free-brands-svg-icons'
+ import { faGithub,  faLinkedin,faTwitter ,faInstagram,faWhatsapp} from '@fortawesome/free-brands-svg-icons'
 
 import LogoS from '../../assets/images/logo-s.png'
 import LogoSahil from '../../assets/images/logosahil1.png'
@@ -23,10 +23,10 @@ const Sidebar = () => {
       <NavLink exact='true' activeclassname="active" to='/' >
       <FontAwesomeIcon icon={faHome} color='#4d4d4e' />
       </NavLink>
-      <NavLink exact='true' className="about-link" activeclassname="active" to='/' >
+      <NavLink exact='true' className="about-link" activeclassname="active" to='/about' >
       <FontAwesomeIcon icon={faUser} color='#4d4d4e' />
       </NavLink>
-      <NavLink exact='true' className="contact-link"  activeclassname="active" to='/' >
+      <NavLink exact='true' className="contact-link"  activeclassname="active" to='/contact' >
       <FontAwesomeIcon icon={faEnvelope} color='#4d4d4e' />
       </NavLink>
     </nav>

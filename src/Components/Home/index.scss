@@ -1,4 +1,23 @@
 .home-page{
+    .logo-side{
+        position: absolute;
+        right: 10%;
+        top: 10%;
+         width: 30%;
+        height: 60%;
+     //   bottom: 10%;
+     .right{
+     position: relative;
+           img{
+             position: absolute;
+              margin-top: 20px;
+             margin-bottom: 20%;
+             margin-left: 20px;
+             height: 600px;
+             
+            }
+        }
+    }
     .text-zone{
         position: absolute;
         left: 10%;
