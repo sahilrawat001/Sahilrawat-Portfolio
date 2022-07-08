@@ -1,0 +1,48 @@
+.project-page{
+    .text-zone{
+        position: absolute;
+        left: 10%;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 40%;
+        max-height: 90%;
+    }
+    h1{
+        color: rgb(248, 252, 255);
+        font-size: 54px;
+        margin: 0;
+        font-family:"Coolvetica" ;
+        font-weight: 300;
+        &::before{
+            content: "<h1>";
+            font-family: "La Belle Aurore";
+            color:#ffd700;
+            font-size: 20px;
+            position: absolute;
+            margin-top: -40px;
+            left: 16px;
+            opacity: 0.6;
+        }
+        &:after{
+          content: "<h1/>";
+          font-family: "La Belle Aurore";
+          color:#ffd700;
+          font-size: 20px;
+          margin-top: 20px;
+          margin-left: 20px;
+          opacity: 0.6;
+          animation: fadeIn 1s 1.5s backwards;
+        }
+    }
+
+    h2{
+        color:#8d8d8d;
+        margin-top: 20px;
+        font-weight: 600;
+        font-size: 14px;
+        font-family:   'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        letter-spacing: 3px;
+        animation: fadeIn 1s 1.8s backwards;
+    }
+
+}
