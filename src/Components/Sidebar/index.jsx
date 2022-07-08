@@ -5,7 +5,8 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import
 {faHome,
   faUser,
-   faEnvelope
+   faEnvelope,
+   faProjectDiagram
 }
  from '@fortawesome/free-solid-svg-icons'
  import { faGithub,  faLinkedin,faTwitter ,faInstagram,faWhatsapp} from '@fortawesome/free-brands-svg-icons'
@@ -28,6 +29,9 @@ const Sidebar = () => {
       </NavLink>
       <NavLink exact='true' className="contact-link"  activeclassname="active" to='/contact' >
       <FontAwesomeIcon icon={faEnvelope} color='#4d4d4e' />
+      </NavLink>
+      <NavLink exact='true' className="project-link"  activeclassname="active" to='/project' >
+      <FontAwesomeIcon icon={faProjectDiagram} color='#4d4d4e' />
       </NavLink>
     </nav>
 
@@ -57,7 +61,7 @@ const Sidebar = () => {
        </li>
 
     <li>
-      <a target="_blank" rel="noreferrer" href=" " >
+      <a target="_blank" rel="noreferrer" href="https://www.instagram.com/sahilrawat_001/ " >
       <FontAwesomeIcon icon={ faInstagram} color='#4d4d4e' />
        </a>
        </li>

@@ -10,22 +10,13 @@ const About = () => {
       <div className="text-zone">
           <h1> About Me</h1>
           <p className='about-me'>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-            Modi eos a est libero voluptatibus fugiat rerum vitae eaque quidem numquam, odit,
-             accusantium sed. Quia, expedita. Odit ducimus quibusdam incidunt officiis?
-            Rerum numquam voluptates dolores eos, sunt officia dolorem, delectus sint minus tempora eaque nam,
-             neque tenetur quis officiis non! Delectus at dolores saepe enim aut deleniti eos tempore quidem non?
-            Expedita, deleniti? Perferendis temporibus facilis dolore commodi animi laboriosam rerum voluptatum porro 
-            ipsa dicta voluptate esse, ullam explicabo velit nobis vitae doloremque earum ratione eos impedit minus dolor! Enim, in!
-          </p>
+          Hey
+          <br/> I am Sahil, An Web developer. I'm currently pursuing an undergraduate in Computer Science. During my studies, I have been acquiring work experience in various fields and lately, I have been concentrating on software development on the Web Development platform.
+           </p>
 
           <p className='about-me' >
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident tempore numquam magni voluptates accusantium,
-                 delectus nesciunt accusamus consectetur repellat ullam cumque blanditiis fugiat perferendis sunt vel illo fuga 
-                 adipisci temporibus.
-                At, impedit? Doloremque, quia. Quisquam molestiae voluptatem voluptates odit sapiente odio nulla quaerat ad commodi
-                 adipisci, totam quas praesentium aut optio sequi eveniet dolorum reiciendis? Corrupti deserunt dicta velit nobis.
-
+          I'm learning React as a frontend ,mongoDB, nodejs for backend, Docker etc. For deployment i mostly used vercel or netlify. 
+          I've made many projects on  Frontend like BookmyShow Clone,Weather app etc
           </p>
                 </div>
       <div className="stage-cube-cont">

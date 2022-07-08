@@ -101,9 +101,10 @@ animation-delay: 1s ;
 .contact-page{
     .text-zone{
         position: absolute;
-       left: 10%;
+       left: 5%;
        top: 50%; 
-       width: 45%;
+       width: 44%;
+       overflow: hidden;
        transform: translateY(-50%);
        vertical-align: middle;
        max-height: 90%;
@@ -141,7 +142,7 @@ animation-delay: 1s ;
        }
        p{
            color:#fff;
-           font-size: 14px;
+           font-size: 16px;
            font-family: sans-serif;
            font-weight: 300;
            min-width: fit-content;
